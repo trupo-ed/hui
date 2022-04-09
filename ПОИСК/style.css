@@ -1,0 +1,108 @@
+
+h2 {
+    color: rgb(187, 36, 36);
+    font-family: 'Roboto';
+
+}
+
+
+.searchtext {
+    font-size: 16px;
+    font-weight: bold;
+    height: 27px;
+    padding: 0 6px 0 ;
+    width: 250px;
+    /*делаем стильную границу вокруг поля*/
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+
+/* выбираем цвет подсветки — светло-зелёный*/
+
+.highlight {
+    background:#ff3e3e8c;}
+/*кнопка поиска*/
+
+.search-button {
+    background-color: #0B2F3F;
+    font-weight: bold;
+    font-size: 12px;
+    /*устанавливаем высоту кнопки*/
+    height: 28px;
+    margin: 0;
+    color: #ffffff;
+    padding: 6px;
+    /*тоже делаем стильную границу у кнопки*/
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+
+.content {
+    width: 800px;
+    background-color: rgba(255, 255, 255, 0.911);
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    box-shadow:1px 1px 9px 1px rgba(145,145,145,1);
+    -webkit-box-shadow:1px 1px 9px 1px rgba(145,145,145,1);
+    -moz-box-shadow:1px 1px 9px 1px rgba(145,145,145,1);
+    color: rgb(22, 22, 22);
+}
+
+/*body {
+    text-align: left;
+    background-color: rgb(70, 70, 70);
+    font-family: 'Roboto';
+}*/
+body{
+    background: url(_tpap.gif);
+    background-repeat: repeat;
+    background-size: 50px 50px;
+}
+.content2 {
+    display: flex;
+}
+
+#ass{
+    font-size: 16pt;
+    font-weight: bold;
+}
+.asd{
+    font-size: 14pt;
+}
+.st1 {
+    width: 46%;
+    margin-left: 10%;
+    margin-right: 2%;
+    text-align: justify;
+}
+
+.st2 {
+    width: 46%;
+    margin-right: 10%;
+    margin-left: 2%;
+    text-align: justify;
+
+}
+
+.content2 li {
+    margin-top: 0.5em;
+    margin-bottom: 1em;    
+}
+
+.pg-title {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.under-title {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: inline;
+}
+
+.split-text {
+    display: inline-block;
+}
