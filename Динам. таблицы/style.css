@@ -1,0 +1,23 @@
+body{
+    background-color: gray;
+}
+table{
+    background-color:lightgray;
+    border-collapse: collapse;
+    color: black;
+}
+td{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+td:hover{
+    border: 3px dashed black;
+    background-color: white;
+}
+
+.maroon{
+    background-color:blueviolet;
+    font-weight: bold;
+    text-align: center;
+}
